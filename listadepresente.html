@@ -4,162 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como nos Presentear?</title>
+    <!-- Link para a fonte Chillen -->
     <link href="https://fonts.googleapis.com/css2?family=Chillen&display=swap" rel="stylesheet">
     <style>
-        @font-face {
-            font-family: 'Louis George Cafe';
-            src: url('fonts/LouisGeorgeCafe.ttf') format('truetype');
-        }
+          
+          @font-face {
+    font-family: 'Louis George Cafe';
+    src: url('fonts/LouisGeorgeCafe.ttf') format('truetype');
+}
 
-        body {
-            background-color: #ffffff;
-            margin: 0;
-            padding: 20px; /* Adicionado padding ao body */
-            box-sizing: border-box;
-            font-family: 'Louis George Cafe', cursive; /* Fonte padrão para o body */
-        }
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Louis George Cafe', cursive;
+}
 
-        header {
-            background-color: #618db8;
-            color: #ffffff; /* Alterado para branco para melhor contraste */
-            padding: 20px;
-            text-align: center;
-            font-size: 2em;
-            background-image: url('123.jpg');
-            background-size: cover; /* Garante que a imagem cubra todo o header */
-            background-position: center; /* Centraliza a imagem */
-            border-radius: 0 0 20px 20px;
-        }
+header {
+    background-color: #618db8;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    background-image: url('123.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 20px 20px;
+}
 
-        section {
-            padding: 40px;
-            background-color: #ffffff;
-            color: #333;
-            text-align: center;
-            line-height: 1.6;
-            display: flex; /* Usado para centralizar verticalmente */
-            flex-direction: column; /* Garante que os elementos fiquem em coluna */
-            justify-content: center; /* Centraliza verticalmente */
-        }
+section {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-        h1 {
-            font-size: 2.5em;
-            color: #618db8;
-            margin-bottom: 20px;
-        }
+h1 {
+    font-size: 2.5em;
+    color: #618db8;
+    margin-bottom: 20px;
+}
 
-        p {
-            font-size: 1.3em;
-            margin-bottom: 20px; /* Adicionado margem inferior aos parágrafos */
-        }
+p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
 
-        .cta-button {
-            background-color: #4682b4;
-            color: white;
-            font-size: 1.2em;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            text-decoration: none;
-        }
+.cta-button {
+    background-color: #4682b4;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
 
-        .cta-button:hover {
-            background-color: #618db8;
-        }
+.cta-button:hover {
+    background-color: #618db8;
+}
 
-        footer {
-            background-color: #618db8;
-            color: rgb(255, 255, 255);
-            padding: 10px;
-            text-align: center;
-            font-size: 1.0em;
-            border-radius: 30px;
-            font-family: 'Louis George Cafe', cursive; /* Fonte correta aplicada */
-            margin-top: 30px; /* Adicionado margem superior */
-        }
+footer {
+    background-color: #618db8;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.0em;
+    border-radius: 30px;
+    font-family: 'Louis George Cafe', cursive;
+    margin-top: 30px;
+}
 
-        /* Responsividade */
-        @media (max-width: 768px) {
-            header {
-                font-size: 1.5em;
-            }
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+    }
 
-            section {
-                padding: 20px;
-            }
+    section {
+        padding: 20px;
+    }
 
-            h1 {
-                font-size: 2em;
-            }
+    h1 {
+        font-size: 2em;
+    }
 
-            p {
-                font-size: 1.1em;
-            }
+    p {
+        font-size: 1.1em;
+    }
 
-            .cta-button {
-                font-size: 1.1em;
-                padding: 10px 20px;
-            }
-        }
+    .cta-button {
+        font-size: 1.1em;
+        padding: 10px 20px;
+    }
+}
 
-        @media (max-width: 480px) {
-            header {
-                font-size: 2em;
-            }
+@media (max-width: 480px) {
+    header {
+        font-size: 2em;
+    }
 
-            section {
-                padding: 15px;
-            }
+    section {
+        padding: 15px;
+    }
 
-            h1 {
-                font-size: 1.7em;
-            }
+    h1 {
+        font-size: 1.7em;
+    }
 
-            p {
-                font-size: 1em;
-            }
+    p {
+        font-size: 1em;
+    }
 
-            b {
-                font-size: 1.1em;
-            }
+    b {
+        font-size: 1.1em;
+    }
 
-            .pula {
-                margin-top: 30px;
-            }
+    .pula {
+        margin-top: 30px;
+    }
 
-            .cta-button {
-                font-size: 1em;
-                padding: 8px 18px;
-            }
+    .cta-button {
+        font-size: 1em;
+        padding: 8px 18px;
+    }
 
-            .Guloseimas {
-                font-size: 0.95em;
-            }
+    .Guloseimas {
+        font-size: 0.95em;
+    }
 
-            li::marker {
-                color: #618db8;
-                font-size: 20px;
-            }
+    li::marker {
+        color: #618db8;
+        font-size: 20px;
+    }
 
-            ul {
-                text-align: left;
-                list-style-position: inside;
-                padding-left: 10px;
-                margin-top: 30px;
-                padding-bottom: 20px; /* Adicionado espaçamento inferior */
-            }
+    ul {
+        text-align: left;
+        list-style-position: inside;
+        padding-left: 10px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
 
-            li {
-                margin-bottom: 10px; /* Adicionado espaçamento entre os itens da lista */
-            }
+    li {
+        margin-bottom: 10px;
+        font-family: 'Louis George Cafe', cursive; /* Adicionado aqui */
+    }
 
-            .li {
-                text-align: left;
-                display: block;
-                font-family: 'Louis George Cafe', cursive;
-            }
-        }
+    .li {
+        text-align: left;
+        display: block;
+        font-family: 'Louis George Cafe', cursive; /* Adicionado aqui */
+    }
+}
     </style>
 </head>
 <body>
@@ -169,18 +172,25 @@
 
     <section>
         <p>Somos muito gratos a Deus que nos abençoou com tudo o que precisamos para viver bem.</p>
+
         <p>Mas, caso queira nos ajudar com uma ação social, escolha um dos itens abaixo para levar na Igreja, no dia do casamento, onde haverá um espaço especialmente reservado para eles.</p>
+        
         <ul>
             <li>Cesta básica</li>
             <li>Caixas de leite</li>
             <li>Fraldas geriátricas</li>
             <li class="Guloseimas">Guloseimas (complementar a cesta básica)</li>
         </ul>
+        
+        
+
         <p class="pula">Juntos podemos fazer a diferença na vida de muitas pessoas. Seu gesto de carinho fará nosso dia ainda mais especial.</p>
-    </section>
+
+        
 
     <footer>
         GRATIDÃO!<br>DEUS TE ABENÇOE💕
     </footer>
+    
 </body>
 </html>
