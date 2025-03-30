@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como nos Presentear?</title>
-    <!-- Link para a fonte Chillen -->
     <link href="https://fonts.googleapis.com/css2?family=Chillen&display=swap" rel="stylesheet">
     <style>
-          
-    body {
-            
+        @font-face {
+            font-family: 'Louis George Cafe';
+            src: url('fonts/LouisGeorgeCafe.ttf') format('truetype');
+        }
+
+        body {
             background-color: #ffffff;
             margin: 0;
-            padding: 0;
+            padding: 20px; /* Adicionado padding ao body */
             box-sizing: border-box;
-            
-           
+            font-family: 'Louis George Cafe', cursive; /* Fonte padrão para o body */
         }
 
         header {
             background-color: #618db8;
-            color: #618db8;
+            color: #ffffff; /* Alterado para branco para melhor contraste */
             padding: 20px;
             text-align: center;
             font-size: 2em;
-            background-image: url('123.jpg'); 
+            background-image: url('123.jpg');
+            background-size: cover; /* Garante que a imagem cubra todo o header */
+            background-position: center; /* Centraliza a imagem */
             border-radius: 0 0 20px 20px;
-            
-            
         }
 
         section {
@@ -36,20 +37,20 @@
             color: #333;
             text-align: center;
             line-height: 1.6;
-         
-            
+            display: flex; /* Usado para centralizar verticalmente */
+            flex-direction: column; /* Garante que os elementos fiquem em coluna */
+            justify-content: center; /* Centraliza verticalmente */
         }
 
         h1 {
             font-size: 2.5em;
             color: #618db8;
             margin-bottom: 20px;
-            
         }
 
         p {
             font-size: 1.3em;
-            margin-bottom: 20px;
+            margin-bottom: 20px; /* Adicionado margem inferior aos parágrafos */
         }
 
         .cta-button {
@@ -74,8 +75,8 @@
             text-align: center;
             font-size: 1.0em;
             border-radius: 30px;
-            font-family: 'Courier New', Courier, monospace;
-            
+            font-family: 'Louis George Cafe', cursive; /* Fonte correta aplicada */
+            margin-top: 30px; /* Adicionado margem superior */
         }
 
         /* Responsividade */
@@ -94,7 +95,6 @@
 
             p {
                 font-size: 1.1em;
-                font-family: 'Louis George Cafe', cursive;
             }
 
             .cta-button {
@@ -106,7 +106,6 @@
         @media (max-width: 480px) {
             header {
                 font-size: 2em;
-                font-family: 'Louis George Cafe', cursive;
             }
 
             section {
@@ -115,55 +114,51 @@
 
             h1 {
                 font-size: 1.7em;
-                font-family: 'Louis George Cafe', cursive;
             }
 
             p {
-                
                 font-size: 1em;
-                font-family: 'Louis George Cafe', sans-serif
-                
             }
-            b{
-                font-family: 'Louis George Cafe', cursive;
+
+            b {
                 font-size: 1.1em;
             }
-            .pula{
-            margin-top: 30px;
+
+            .pula {
+                margin-top: 30px;
             }
 
             .cta-button {
                 font-size: 1em;
                 padding: 8px 18px;
             }
-            .Guloseimas{
+
+            .Guloseimas {
                 font-size: 0.95em;
             }
-            li::marker {
-    color: #618db8; /* Define a cor da bolinha */
-    font-size: 20px; /* Opcional: altera o tamanho */
-}
-@font-face {
-            font-family: 'Louis George Cafe';
-            src: url('fonts/LouisGeorgeCafe.ttf') format('truetype');
-        }
-            ul {
-            text-align: left; 
-            list-style-position: inside; 
-            padding-left: 10px;
-            font-family: 'Louis George Cafe', cursive;  
-            margin-top: 30px;
-        }
 
-        .li{
-            text-align: left;
-            display: block;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-             
-        }
-        
-        
-            
+            li::marker {
+                color: #618db8;
+                font-size: 20px;
+            }
+
+            ul {
+                text-align: left;
+                list-style-position: inside;
+                padding-left: 10px;
+                margin-top: 30px;
+                padding-bottom: 20px; /* Adicionado espaçamento inferior */
+            }
+
+            li {
+                margin-bottom: 10px; /* Adicionado espaçamento entre os itens da lista */
+            }
+
+            .li {
+                text-align: left;
+                display: block;
+                font-family: 'Louis George Cafe', cursive;
+            }
         }
     </style>
 </head>
@@ -174,25 +169,18 @@
 
     <section>
         <p>Somos muito gratos a Deus que nos abençoou com tudo o que precisamos para viver bem.</p>
-
         <p>Mas, caso queira nos ajudar com uma ação social, escolha um dos itens abaixo para levar na Igreja, no dia do casamento, onde haverá um espaço especialmente reservado para eles.</p>
-        
         <ul>
             <li>Cesta básica</li>
             <li>Caixas de leite</li>
             <li>Fraldas geriátricas</li>
             <li class="Guloseimas">Guloseimas (complementar a cesta básica)</li>
         </ul>
-        
-        
-
         <p class="pula">Juntos podemos fazer a diferença na vida de muitas pessoas. Seu gesto de carinho fará nosso dia ainda mais especial.</p>
-
-        
+    </section>
 
     <footer>
         GRATIDÃO!<br>DEUS TE ABENÇOE💕
     </footer>
-    
 </body>
 </html>
