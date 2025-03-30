@@ -8,161 +8,179 @@
     <link href="https://fonts.googleapis.com/css2?family=Chillen&display=swap" rel="stylesheet">
     <style>
           
-          @font-face {
-    font-family: 'Louis George Cafe';
-    src: url('fonts/LouisGeorgeCafe.ttf') format('truetype');
+    body {
+            
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Louis George Cafe';
+            
+           
+        }
+
+        header {
+            background-color: #618db8;
+            color: #618db8;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            background-image: url('123.jpg'); 
+            border-radius: 0 0 20px 20px;
+            font-family: 'Louis George Cafe';
+            
+            
+        }
+
+        section {
+            padding: 40px;
+            background-color: #ffffff;
+            color: #333;
+            text-align: center;
+            line-height: 1.6;
+            font-family: 'Louis George Cafe';
+         
+            
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #618db8;
+            margin-bottom: 20px;
+            font-family: 'Louis George Cafe';
+            
+        }
+
+        p {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            font-family: 'Louis George Cafe';
+        }
+
+        .cta-button {
+            background-color: #4682b4;
+            color: white;
+            font-size: 1.2em;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'Louis George Cafe';
+        }
+
+        .cta-button:hover {
+            background-color: #618db8;
+            font-family: 'Louis George Cafe';
+        }
+
+        footer {
+            background-color: #618db8;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            text-align: center;
+            font-size: 1.0em;
+            border-radius: 30px;
+            font-family: 'Louis George Cafe';
+            
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.5em;
+                font-family: 'Louis George Cafe';
+            }
+
+            section {
+                padding: 20px;
+                font-family: 'Louis George Cafe';
+            }
+
+            h1 {
+                font-size: 2em;
+                font-family: 'Louis George Cafe';
+            }
+
+            p {
+                font-size: 1.1em;
+                font-family: 'Louis George Cafe', cursive;
+            }
+
+            .cta-button {
+                font-size: 1.1em;
+                padding: 10px 20px;
+                font-family: 'Louis George Cafe';
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 2em;
+                font-family: 'Louis George Cafe', cursive;
+            }
+
+            section {
+                padding: 15px;
+                font-family: 'Louis George Cafe';
+            }
+
+            h1 {
+                font-size: 1.7em;
+                font-family: 'Louis George Cafe', cursive;
+            }
+
+            p {
+                
+                font-size: 1em;
+                font-family: 'Louis George Cafe', sans-serif
+                
+            }
+            b{
+                font-family: 'Louis George Cafe', cursive;
+                font-size: 1.1em;
+            }
+            .pula{
+            margin-top: 30px;
+            font-family: 'Louis George Cafe';
+            }
+
+            .cta-button {
+                font-size: 1em;
+                padding: 8px 18px;
+                font-family: 'Louis George Cafe';
+            }
+            .Guloseimas{
+                font-size: 0.95em;
+                font-family: 'Louis George Cafe';
+            }
+            li::marker {
+    color: #618db8; /* Define a cor da bolinha */
+    font-size: 20px; /* Opcional: altera o tamanho */
 }
+@font-face {
+            font-family: 'Louis George Cafe';
+            src: url('fonts/LouisGeorgeCafe.ttf') format('truetype');
+        }
+            ul {
+            text-align: left; 
+            list-style-position: inside; 
+            padding-left: 10px;
+            font-family: 'Louis George Cafe', cursive;  
+            margin-top: 30px;
+        }
 
-body {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-    font-family: 'Louis George Cafe', cursive;
-}
-
-header {
-    background-color: #618db8;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    font-size: 2em;
-    background-image: url('123.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 0 0 20px 20px;
-}
-
-section {
-    padding: 40px;
-    background-color: #ffffff;
-    color: #333;
-    text-align: center;
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-h1 {
-    font-size: 2.5em;
-    color: #618db8;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 1.3em;
-    margin-bottom: 20px;
-}
-
-.cta-button {
-    background-color: #4682b4;
-    color: white;
-    font-size: 1.2em;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.cta-button:hover {
-    background-color: #618db8;
-}
-
-footer {
-    background-color: #618db8;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    text-align: center;
-    font-size: 1.0em;
-    border-radius: 30px;
-    font-family: 'Louis George Cafe', cursive;
-    margin-top: 30px;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    header {
-        font-size: 1.5em;
-    }
-
-    section {
-        padding: 20px;
-    }
-
-    h1 {
-        font-size: 2em;
-    }
-
-    p {
-        font-size: 1.1em;
-    }
-
-    .cta-button {
-        font-size: 1.1em;
-        padding: 10px 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        font-size: 2em;
-    }
-
-    section {
-        padding: 15px;
-    }
-
-    h1 {
-        font-size: 1.7em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    b {
-        font-size: 1.1em;
-    }
-
-    .pula {
-        margin-top: 30px;
-    }
-
-    .cta-button {
-        font-size: 1em;
-        padding: 8px 18px;
-    }
-
-    .Guloseimas {
-        font-size: 0.95em;
-    }
-
-    li::marker {
-        color: #618db8;
-        font-size: 20px;
-    }
-
-    ul {
-        text-align: left;
-        list-style-position: inside;
-        padding-left: 10px;
-        margin-top: 30px;
-        padding-bottom: 20px;
-    }
-
-    li {
-        margin-bottom: 10px;
-        font-family: 'Louis George Cafe', cursive; /* Adicionado aqui */
-    }
-
-    .li {
-        text-align: left;
-        display: block;
-        font-family: 'Louis George Cafe', cursive; /* Adicionado aqui */
-    }
-}
+        .li{
+            text-align: left;
+            display: block;
+            font-family:;
+            font-family: 'Louis George Cafe';
+             
+        }
+        
+        
+            
+        }
     </style>
 </head>
 <body>
