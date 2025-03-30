@@ -7,56 +7,50 @@
     <!-- Link para a fonte Chillen -->
 
     <style>
-          
-    body {
-            
+        @font-face {
+            font-family: 'Louis George Cafe';
+            src: url('fonts/LouisGeorgeCafe.woff2') format('woff2'),
+                 url('fonts/LouisGeorgeCafe.woff') format('woff'),
+                 url('fonts/LouisGeorgeCafe.ttf') format('truetype');
+        }
+    
+        body {
             background-color: #ffffff;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Louis George Cafe';
-            
-           
+            font-family: 'Louis George Cafe', Arial, sans-serif;
         }
-
+    
         header {
             background-color: #618db8;
-            color: #618db8;
+            color: #ffffff;
             padding: 20px;
             text-align: center;
             font-size: 2em;
-            background-image: url('123.jpg'); 
+            background-image: url('123.jpg');
             border-radius: 0 0 20px 20px;
-            font-family: 'Louis George Cafe';
-            
-            
         }
-
+    
         section {
             padding: 40px;
             background-color: #ffffff;
             color: #333;
             text-align: center;
             line-height: 1.6;
-            font-family: 'Louis George Cafe';
-         
-            
         }
-
+    
         h1 {
             font-size: 2.5em;
             color: #618db8;
             margin-bottom: 20px;
-            font-family: 'Louis George Cafe';
-            
         }
-
+    
         p {
             font-size: 1.3em;
             margin-bottom: 20px;
-            font-family: 'Louis George Cafe';
         }
-
+    
         .cta-button {
             background-color: #4682b4;
             color: white;
@@ -66,14 +60,12 @@
             border-radius: 8px;
             cursor: pointer;
             text-decoration: none;
-            font-family: 'Louis George Cafe';
         }
-
+    
         .cta-button:hover {
             background-color: #618db8;
-            font-family: 'Louis George Cafe';
         }
-
+    
         footer {
             background-color: #618db8;
             color: rgb(255, 255, 255);
@@ -81,104 +73,90 @@
             text-align: center;
             font-size: 1.0em;
             border-radius: 30px;
-            font-family: 'Louis George Cafe';
-            
+            margin-top: 30px;
         }
-
+    
         /* Responsividade */
         @media (max-width: 768px) {
             header {
                 font-size: 1.5em;
-                font-family: 'Louis George Cafe';
             }
-
+    
             section {
                 padding: 20px;
-                font-family: 'Louis George Cafe';
             }
-
+    
             h1 {
                 font-size: 2em;
-                font-family: 'Louis George Cafe';
             }
-
+    
             p {
                 font-size: 1.1em;
-                font-family: 'Louis George Cafe', cursive;
             }
-
+    
             .cta-button {
                 font-size: 1.1em;
                 padding: 10px 20px;
-                font-family: 'Louis George Cafe';
             }
         }
-
+    
         @media (max-width: 480px) {
             header {
                 font-size: 2em;
-                font-family: 'Louis George Cafe', cursive;
             }
-
+    
             section {
                 padding: 15px;
-                font-family: 'Louis George Cafe';
             }
-
+    
             h1 {
                 font-size: 1.7em;
-                font-family: 'Louis George Cafe', cursive;
             }
-
+    
             p {
-                
                 font-size: 1em;
-                font-family: 'Louis George Cafe', sans-serif
-                
             }
-            b{
-                font-family: 'Louis George Cafe', cursive;
+    
+            b {
                 font-size: 1.1em;
             }
-            .pula{
-            margin-top: 30px;
-            font-family: 'Louis George Cafe';
+    
+            .pula {
+                margin-top: 30px;
             }
-
+    
             .cta-button {
                 font-size: 1em;
                 padding: 8px 18px;
-                font-family: 'Louis George Cafe';
             }
-            .Guloseimas{
+    
+            .Guloseimas {
                 font-size: 0.95em;
-                font-family: 'Louis George Cafe';
             }
+    
             li::marker {
-    color: #618db8; /* Define a cor da bolinha */
-    font-size: 20px; /* Opcional: altera o tamanho */
-}
-@font-face {
-            font-family: 'Louis George Cafe';
-            src: url('fonts/LouisGeorgeCafe.ttf') format('truetype');
-        }
+                color: #618db8;
+                font-size: 20px;
+            }
+    
             ul {
-            text-align: left; 
-            list-style-position: inside; 
-            padding-left: 10px;
-            font-family: 'Louis George Cafe', cursive;  
-            margin-top: 30px;
-        }
-
-        .li{
-            text-align: left;
-            display: block;
-            font-family: 'Louis George Cafe';
-             
-        }
-        
-        
-            
+                text-align: left;
+                list-style-position: inside;
+                padding-left: 10px;
+                margin-top: 30px;
+                padding-bottom: 20px;
+            }
+    
+            li {
+                margin-bottom: 10px;
+                font-family: 'Louis George Cafe', Arial, sans-serif; /* Adicionado aqui */
+            }
+    
+            .li {
+                text-align: left;
+                display: block;
+                font-family: 'Louis George Cafe', Arial, sans-serif; /* Adicionado aqui */
+            }
         }
     </style>
 </head>
